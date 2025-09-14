@@ -1,0 +1,25 @@
+{
+  "name": "prisma-zod-demo-youtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "tsx prisma/seed.ts",
+    "seed-with-validation": "tsx prisma/seed-with-validation.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.3.3",
+    "prisma": "^6.16.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.1",
+    "zod": "^4.1.8"
+  }
+}
